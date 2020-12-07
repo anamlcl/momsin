@@ -1,0 +1,38 @@
+.subtitulos-cursos {
+    text-align: center;
+    margin: 50px 200px;
+}
+
+#container-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-cursos {
+    width: 800px;
+    margin: 50px;
+    padding: 50px;
+    line-height: 30px;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px #fef001;
+}
+
+.card-cursos:hover {
+    transition: 0.2s;
+}
+
+.card-cursos h3 p {
+    color: #000;
+}
+
+.card-cursos a {
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: whitesmoke;
+    background-color: #000;
+}
+
+
