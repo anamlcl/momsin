@@ -8,3 +8,7 @@
     text-decoration: none;
     background-color: whitesmoke;
 }
+
+.App {
+    height: 100vh;
+}

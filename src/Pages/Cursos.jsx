@@ -9,8 +9,8 @@ const Cursos = () => {
         <>
             <Navbar />
             <div className='subtitulos-cursos'>
-                <h2>Quer começar uma carreira em marketing digital mas não sabe como? Calma! A gente te ajuda!</h2>
-                <h3>Aqui listamos cursos gratuitos com alguns dos principais conhecimentos exigidos nessa área para você iniciar seus estudos, se aperfeiçoar e se tornar super competitiva no mercado de trabalho!</h3>
+                <p>Quer começar uma carreira em marketing digital mas não sabe como?<br /> Calma! A gente te ajuda!</p>
+                <p>Aqui listamos cursos gratuitos com alguns dos principais conhecimentos exigidos nessa área para você iniciar seus estudos, se aperfeiçoar e se tornar super competitiva no mercado de trabalho!</p>
             </div>
             <div id='container-cursos'>
                 {cursos.map(curso => {

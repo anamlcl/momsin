@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px 300px;
+    margin: 80px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 #container-vagas {
@@ -11,27 +13,29 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 150px;
 }
 
-.card-vagas {
-    width: 300px;
+#card-vagas {
+    width: 400px;
     margin: 50px;
     padding: 50px;
     line-height: 30px;
     border: 1px solid #c9c9c9;
     border-radius: 7px;
-    box-shadow: 2px 2px 4px #fef001;
+    box-shadow: 6px 6px 0 #fef001;
 }
 
-.card-vagas:hover {
+#card-vagas:hover {
     transition: 0.2s;
+    transform: scale(1.1); 
 }
 
-.card-vagas h3 p {
+#card-vagas h3 p {
     color: #000;
 }
 
-.card-vagas a {
+#card-vagas a {
     border: 1px solid #000;
     border-radius: 2px;
     color: whitesmoke;

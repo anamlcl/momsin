@@ -1,12 +1,25 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .head {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 30px 10px;
+}
+
+.head-titulo {
+    font-size: 90px;
+    background-color: #fef001;
+    padding: 20px 40px 0;
+}
+
+.head-subtitulo {
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color: #fef001;
+    padding: 10px 166px 40px;
 }

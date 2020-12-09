@@ -9,7 +9,7 @@ const Eventos = () => {
         <>
             <Navbar />
             <div className='subtitulo-eventos'>
-                <h2>Fique por dentro dos principais eventos sobre Marketing Digital:</h2>
+                <p>Fique por dentro dos principais eventos<br /> sobre Marketing Digital:</p>
             </div>
             <div id='container-eventos' >
                 {eventos.map(evento => {

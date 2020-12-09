@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 30px 10px;
+}
+
+.main-titulo {
+    font-size: 60px;
+    padding: 20px 40px 0;
+}
+
+.main-subtitulo {
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.main-conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.main-texto {
+    max-width: 500px;
+    text-align: justify;
+    line-height: 30px;
+}

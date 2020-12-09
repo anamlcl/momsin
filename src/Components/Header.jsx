@@ -1,4 +1,5 @@
 import Navbar from './Navbar'
+import '../Styles/Components/header.css'
 
 const Header = () => {
     return (
@@ -7,8 +8,8 @@ const Header = () => {
         <Navbar />
         <header>
             <div className="head">
-                <h1>MOMsIN</h1>
-                <h4>Marketing Digital</h4>
+                <p className='head-titulo'>MOMsIN</p>
+                <p className='head-subtitulo'>Marketing Digital</p>
             </div>
         </header>
         

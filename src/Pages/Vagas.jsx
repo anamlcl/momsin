@@ -9,12 +9,12 @@ const Vagas = () => {
         <>
             <Navbar />
             <div className='subtitulo'>
-                <h2>Separamos aqui as principais vagas para você dar início a sua carreira no marketing digital!</h2>
+                <p>Separamos aqui as principais vagas para você iniciar<br /> a sua carreira no marketing digital!</p>
             </div>
             <div id='container-vagas'>
                 {vagas.map(vaga => {
 
-                    return <div class='card-vagas' key={vaga.id}>
+                    return <div id='card-vagas' key={vaga.id}>
                         <h3>{vaga.cargo}</h3>
                         <p>{vaga.empresa}</p>
                         <p>{vaga.local}</p>
