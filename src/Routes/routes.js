@@ -19,10 +19,10 @@ function Routes() {
                 <Route path="/vagas" component={Vagas} />
                 <Route path="/cursos" component={Cursos} />
                 <Route path="/eventos" component={Eventos} />
-                <Route path='/parentsin' component={() => {
+                {/* <Route path='/parentsin' component={() => {
                     window.location.href = 'https://parentsin.co/';
                     return null;
-                }} />
+                }} /> */}
             </Switch>
         </BrowserRouter>
 

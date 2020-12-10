@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Link className="link" to="/momsin">Conheça a Trilha MOMsIN</Link>
             </li>
             <li>
-                <Link className="link" to="/parentsin">Conheça a parentsIN</Link>
+                <a href='https://parentsin.co/' target='_blank' rel='noreferrer noopener nofollow' className="link">Conheça a parentsIN</a>
             </li>
             <li>
                 <Link className="link" to="/vagas">Vagas</Link>
