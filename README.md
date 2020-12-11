@@ -1,16 +1,17 @@
-# Getting Started with Create React App
+![momsin](https://user-images.githubusercontent.com/60146477/101950807-a444a600-3bd4-11eb-9867-8bec50c10ccf.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+--- 
 
-## Available Scripts
+## 💻 Sobre
 
-In the project directory, you can run:
+Projeto final com tema livre desenvolvido durante o bootcamp de front-end da [{reprograma}](https://reprograma.com.br/), turma On8, em pareceria com a [Accenture](https://www.accenture.com/br-pt). 
+Esse projeto foi escolhido e criado para servir de complemento à Trilha MOMsIN (desenvolvida pela startup [parentsIN](https://parentsin.co/)), sendo direcionado a profissionais, mulheres e mães, que buscam entrar ou retornar ao mercado de trabalho. 
+O objetivo é mapear e facilitar o acesso a vagas, cursos preparatórios e eventos focados em Marketing Digital.   
 
-### `npm start`
+---   
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Tecnologia
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React](https://pt-br.reactjs.org/)     
 
-
+---
