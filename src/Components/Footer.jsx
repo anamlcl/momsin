@@ -1,11 +1,24 @@
 import '../Styles/Components/footer.css'
 import { DiReact } from 'react-icons/di';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+
 
 
 const Footer = () => {
     return (
         <footer>
-            Desenvolvido em React <DiReact size={15} color='#48CEF7'/> por Ana Luiza Costa Lima
+            <div className='footer-texto'>
+                Desenvolvido em React <DiReact className='footer-icon' size={18} color='#48CEF7' /> por Ana Luiza Costa Lima |
+            </div>
+            <div >
+                <a className='rodape-media' href='https://www.linkedin.com/in/anamlcl/' rel='noreferrer noopener nofollow' target='_blank'>
+                    <AiFillLinkedin className='footer-icon-social-media' size={18} />
+                </a>
+                <a className='rodape-media' href='https://github.com/anamlcl' rel='noreferrer noopener nofollow' target='_blank'>
+                    <AiFillGithub className='footer-icon-social-media' size={18} />
+                </a>
+            </div>
         </footer>
     )
 }
