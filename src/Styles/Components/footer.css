@@ -3,7 +3,7 @@ footer {
     justify-content: center;
     align-items: center;
     width:100%;
-    padding: 8px;
+    padding: 7px;
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -21,7 +21,6 @@ footer {
 
 .footer-texto {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     margin-left: 5px;
     color: #fff;
@@ -29,7 +28,8 @@ footer {
 }
 
 .footer-icon-social-media {
-    margin-left: 5px;
+    padding-left: 2px;
+    padding-top: 3.5px;
     color: #fff;
     background-color: #000;
 }

@@ -13,10 +13,10 @@ const Footer = () => {
             </div>
             <div >
                 <a className='rodape-media' href='https://www.linkedin.com/in/anamlcl/' rel='noreferrer noopener nofollow' target='_blank'>
-                    <AiFillLinkedin className='footer-icon-social-media' size={18} />
+                    <AiFillLinkedin className='footer-icon-social-media' size={22} />
                 </a>
                 <a className='rodape-media' href='https://github.com/anamlcl' rel='noreferrer noopener nofollow' target='_blank'>
-                    <AiFillGithub className='footer-icon-social-media' size={18} />
+                    <AiFillGithub className='footer-icon-social-media' size={22} />
                 </a>
             </div>
         </footer>
